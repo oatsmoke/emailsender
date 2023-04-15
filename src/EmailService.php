@@ -35,7 +35,6 @@ class EmailService
 
     public function send_email(string $username)
     {
-        echo "1";
         $email = (new Email())
             ->from("from@example.ru")
             ->to("to@example.ru")
